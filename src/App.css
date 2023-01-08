@@ -1,5 +1,6 @@
 .App {
   text-align: center;
+  background-color: #ccc;
 }
 
 .App-logo {
@@ -36,3 +37,20 @@
     transform: rotate(360deg);
   }
 }
+
+.card {
+  border: 1px solid black;
+  width: 400px;
+  height: 200px;
+  background-color: #fff;
+  margin: 30px auto;
+}
+
+.listar {
+  list-style-type: none;
+}
+
+ul li {
+  display: inline; /* Отображать как строчный элемент */
+ }
+
